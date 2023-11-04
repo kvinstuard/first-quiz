@@ -1,0 +1,2236 @@
+diff --git a/.gitignore b/.gitignore
+index 3b47800..75abc4a 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,196 +1,196 @@
+-# Byte-compiled / optimized / DLL files
+-__pycache__/
+-*.py[cod]
+-*$py.class
+-
+-# C extensions
+-*.so
+-
+-# Distribution / packaging
+-.Python
+-build/
+-develop-eggs/
+-dist/
+-downloads/
+-eggs/
+-.eggs/
+-lib/
+-lib64/
+-parts/
+-sdist/
+-var/
+-wheels/
+-share/python-wheels/
+-*.egg-info/
+-.installed.cfg
+-*.egg
+-MANIFEST
+-
+-# PyInstaller
+-#  Usually these files are written by a python script from a template
+-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+-*.manifest
+-*.spec
+-
+-# Installer logs
+-pip-log.txt
+-pip-delete-this-directory.txt
+-
+-# Unit test / coverage reports
+-htmlcov/
+-.tox/
+-.nox/
+-.coverage
+-.coverage.*
+-.cache
+-nosetests.xml
+-coverage.xml
+-*.cover
+-*.py,cover
+-.hypothesis/
+-.pytest_cache/
+-cover/
+-
+-# Translations
+-*.mo
+-*.pot
+-
+-# Django stuff:
+-*.log
+-local_settings.py
+-db.sqlite3
+-db.sqlite3-journal
+-
+-# Flask stuff:
+-instance/
+-.webassets-cache
+-
+-# Scrapy stuff:
+-.scrapy
+-
+-# Sphinx documentation
+-docs/_build/
+-
+-# PyBuilder
+-.pybuilder/
+-target/
+-
+-# oh hello! jeje send me an emoji on Slack representing your favorite sport! 
+-
+-# Jupyter Notebook
+-.ipynb_checkpoints
+-
+-# IPython
+-profile_default/
+-ipython_config.py
+-
+-# pyenv
+-#   For a library or package, you might want to ignore these files since the code is
+-#   intended to run in multiple environments; otherwise, check them in:
+-# .python-version
+-
+-# pipenv
+-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+-#   install all needed dependencies.
+-#Pipfile.lock
+-
+-# poetry
+-#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+-#   This is especially recommended for binary packages to ensure reproducibility, and is more
+-#   commonly ignored for libraries.
+-#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+-#poetry.lock
+-
+-# pdm
+-#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+-#pdm.lock
+-#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+-#   in version control.
+-#   https://pdm.fming.dev/#use-with-ide
+-.pdm.toml
+-
+-# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+-__pypackages__/
+-
+-# Celery stuff
+-celerybeat-schedule
+-celerybeat.pid
+-
+-# SageMath parsed files
+-*.sage.py
+-
+-# Environments
+-.env
+-.venv
+-env/
+-venv/
+-ENV/
+-env.bak/
+-venv.bak/
+-
+-# Spyder project settings
+-.spyderproject
+-.spyproject
+-
+-# Rope project settings
+-.ropeproject
+-
+-# mkdocs documentation
+-/site
+-
+-# mypy
+-.mypy_cache/
+-.dmypy.json
+-dmypy.json
+-
+-# Pyre type checker
+-.pyre/
+-
+-# pytype static type analyzer
+-.pytype/
+-
+-# Cython debug symbols
+-cython_debug/
+-
+-# PyCharm
+-#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+-#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+-#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+-#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+-#.idea/
+-
+-# VS Code files for those working on multiple tools
+-.vscode/
+-.vscode/*
+-!.vscode/settings.json
+-!.vscode/tasks.json
+-!.vscode/launch.json
+-!.vscode/extensions.json
+-*.code-workspace
+-
+-# Compiled class file
+-*.class
+-
+-# Log file
+-*.log
+-
+-# BlueJ files
+-*.ctxt
+-
+-# Mobile Tools for Java (J2ME)
+-.mtj.tmp/
+-
+-# Package Files #
+-*.jar
+-*.war
+-*.nar
+-*.ear
+-*.zip
+-*.tar.gz
+-*.rar
+-
+-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+-hs_err_pid*
+-replay_pid*
++# Byte-compiled / optimized / DLL files
++__pycache__/
++*.py[cod]
++*$py.class
++
++# C extensions
++*.so
++
++# Distribution / packaging
++.Python
++build/
++develop-eggs/
++dist/
++downloads/
++eggs/
++.eggs/
++lib/
++lib64/
++parts/
++sdist/
++var/
++wheels/
++share/python-wheels/
++*.egg-info/
++.installed.cfg
++*.egg
++MANIFEST
++
++# PyInstaller
++#  Usually these files are written by a python script from a template
++#  before PyInstaller builds the exe, so as to inject date/other infos into it.
++*.manifest
++*.spec
++
++# Installer logs
++pip-log.txt
++pip-delete-this-directory.txt
++
++# Unit test / coverage reports
++htmlcov/
++.tox/
++.nox/
++.coverage
++.coverage.*
++.cache
++nosetests.xml
++coverage.xml
++*.cover
++*.py,cover
++.hypothesis/
++.pytest_cache/
++cover/
++
++# Translations
++*.mo
++*.pot
++
++# Django stuff:
++*.log
++local_settings.py
++db.sqlite3
++db.sqlite3-journal
++
++# Flask stuff:
++instance/
++.webassets-cache
++
++# Scrapy stuff:
++.scrapy
++
++# Sphinx documentation
++docs/_build/
++
++# PyBuilder
++.pybuilder/
++target/
++
++# oh hello! jeje send me an emoji on Slack representing your favorite sport! 
++
++# Jupyter Notebook
++.ipynb_checkpoints
++
++# IPython
++profile_default/
++ipython_config.py
++
++# pyenv
++#   For a library or package, you might want to ignore these files since the code is
++#   intended to run in multiple environments; otherwise, check them in:
++# .python-version
++
++# pipenv
++#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
++#   However, in case of collaboration, if having platform-specific dependencies or dependencies
++#   having no cross-platform support, pipenv may install dependencies that don't work, or not
++#   install all needed dependencies.
++#Pipfile.lock
++
++# poetry
++#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
++#   This is especially recommended for binary packages to ensure reproducibility, and is more
++#   commonly ignored for libraries.
++#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
++#poetry.lock
++
++# pdm
++#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
++#pdm.lock
++#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
++#   in version control.
++#   https://pdm.fming.dev/#use-with-ide
++.pdm.toml
++
++# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
++__pypackages__/
++
++# Celery stuff
++celerybeat-schedule
++celerybeat.pid
++
++# SageMath parsed files
++*.sage.py
++
++# Environments
++.env
++.venv
++env/
++venv/
++ENV/
++env.bak/
++venv.bak/
++
++# Spyder project settings
++.spyderproject
++.spyproject
++
++# Rope project settings
++.ropeproject
++
++# mkdocs documentation
++/site
++
++# mypy
++.mypy_cache/
++.dmypy.json
++dmypy.json
++
++# Pyre type checker
++.pyre/
++
++# pytype static type analyzer
++.pytype/
++
++# Cython debug symbols
++cython_debug/
++
++# PyCharm
++#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
++#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
++#  and can be added to the global gitignore or merged into this file.  For a more nuclear
++#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
++#.idea/
++
++# VS Code files for those working on multiple tools
++.vscode/
++.vscode/*
++!.vscode/settings.json
++!.vscode/tasks.json
++!.vscode/launch.json
++!.vscode/extensions.json
++*.code-workspace
++
++# Compiled class file
++*.class
++
++# Log file
++*.log
++
++# BlueJ files
++*.ctxt
++
++# Mobile Tools for Java (J2ME)
++.mtj.tmp/
++
++# Package Files #
++*.jar
++*.war
++*.nar
++*.ear
++*.zip
++*.tar.gz
++*.rar
++
++# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
++hs_err_pid*
++replay_pid*
+diff --git a/README.md b/README.md
+index 7e4d662..39abc3e 100644
+--- a/README.md
++++ b/README.md
+@@ -1,82 +1,82 @@
+-```
+-                                   _                 __        
+-                          .-.     / |_              [  |       
+- _   __  .---.  _ .--.  __| |__  `| |-'.---.  .---.  | |--.    
+-[ \ [  ]/ /__\\[ `/'`\]|__   __|  | | / /__\\/ /'`\] | .-. |   
+- \ \/ / | \__., | |       | |     | |,| \__.,| \__.  | | | |   
+-  \__/_  '.__.'[___]__    '-'     \__/ '.__.''.___.'[___]|__]  
+-
+-  .' ..]      [  | [  |                                        
+- _| |_  .---.  | |  | |  .--.   _   _   __  .--.               
+-'-| |-'/ /__\\ | |  | |/ .'`\ \[ \ [ \ [  ]( (`\]              
+-  | |  | \__., | |  | || \__. | \ \/\ \/ /  `'.'.              
+- [___]  '.__.'[___][___]'.__.'   \__/\__/  [\__) )             
+-
+-```
+-# primera etapa
+-
+-¡Bienvenid@s a la primera prueba del programa VélezReyes+ Tech Fellows 2024! We are so excited that you are here and to embark on this journey together.
+-
+-As you can see, this journey will also be in _English_ and we hope that this process is also a great resource for you to practice your English and see it in action in technical contexts. If you are not entirely comfortable in English, we encourage you to use translation software, friends, anything! Please keep in mind that here at ver+ we value resourcefulness, a learning mindset, attention to detail, and care for each other above all else! 
+-
+-### Instructions
+-
+-There are three parts to this challenge, each in their own folder: each part contains its own questions. Each part has its own README with some light instructions on what is expected of each question. As you will see, most of the questions involve editing the question file in place, and in certain circumstances, a test harness is provided.
+-
+-**TO START**
+-
+-_FORK_ the repository to commence the test. If you do not fork the repository, your participation will not be counted. Please DO NOT CLONE the repository, and make sure you fork it.
+-
+-**TO SUBMIT**
+-
+-There is a multi-step submit process. **DO NOT OPEN A PULL REQUEST**. THIS MIGHT DISQUALIFY YOU AUTOMATICALLY. Please make sure you follow these instructions as we will not accept any other submission method!
+-1. When your solution is ready, create a git diff patch and compress it. You can do so with the following command _from your working branch_: `git diff main > first_quiz_submission.patch && zip first_quiz_submission.zip first_quiz_submission.patch`.
+-2. Your submission must be with this filename-- we will not accept any submissions that do not match the file pattern.
+-3. Upload your patch, binaries, and other required information in this [form](https://forms.gle/UYnRpDorzThZmdhD7)! You can go back and update your answers as much as you want before the deadline.
+-
+-DO NOT OPEN A PULL REQUEST-- this will disqualify you. We will NOT accept pull requests or branches-- please make sure you use the diff generation method to generate your patch.
+-
+-### The deadline is Sunday, November 5th at 3:00pm Colombia.
+-We will judge the timeliness of submissions by the timestamp of your form submission. You will be notified of your results on November 8th.
+-
+-```We wish you the best for this week!```
+-
+-Remember that our team is here for you, and truly excited that each and everyone of you are here with the ambition and passion to transform both your lives and the lives of others through technology.
+-
+-```
+-    _________   ____ 
+-   / ____/   | / __ \
+-  / /_  / /| |/ / / /
+- / __/ / ___ / /_/ / 
+-/_/   /_/  |_\___\_\ 
+-                     
+-```
+-
+-*What if I can't install the requirements on my localhost?*
+-
+-We highly recommend that you find a way to complete this challenge locally. We have designed this to require minimal packages, and if you have access to a Linux terminal, you should be able to edit and run all the code. If you absolutely cannot do so at this stage, you can also use most online REPLs such as Github Dev or REPL.it which should support the packages needed. Please keep in mind that the second stage requires a proper localhost environment setup for full stack development.
+-
+-If you don't have a native Linux terminal, and for example, are with a Windows machine, you can also find workarounds that allow you to get the code up and running! We encourage you to use the internet to find the equivalent commands to run the code. Remember, too, that we have provided _convenience_ configuration commands, but they are not entirely necessary to complete the test.
+-
+-*What if I don't understand certain instructions?*
+-
+-Part of the test is seeing an existing code base and being able to navigate the documentation and files no matter what. We encourage you to use Google, translators, and to play around with the code until it makes more sense how to proceed. The ver+ team will unfortunately NOT be providing clarifications to the instructions.
+-
+-*Can I make edits to any file? Including the test files?*
+-
+-Great question! It is up to you to edit and decide what is necessary to make a complete submission. We value attention to detail so please feel free to make necessary edits when you find them!
+-
+-*What if I discover a bug with the code?*
+-
+-If you believe you've discovered a true error that would prevent anyone from completing the test, please message Karen Sun in the Slack channel. You should have received a link to the Slack channel if you are eligible for this stage of the test!
+-
+-*I found this repository. Can I make a submission?*
+-
+-While you are free to use this repository to practice your engineering skills, only those who have been identified as eligible for this program and have been invited to our Slack program channel are eligible for the ver+ tech fellowship in 2024.
+-
+-*What if I don't have a Gmail account?*
+-
+-You will need a gmail account in order to use our submission form. Please make a free account (which will surely be useful in the future as well!) in order to enter your submission.
+-
+-
+-_If there are questions not addressed here about the class, please put your questions into the `#etapa1-test` channel in Slack_
++```
++                                   _                 __        
++                          .-.     / |_              [  |       
++ _   __  .---.  _ .--.  __| |__  `| |-'.---.  .---.  | |--.    
++[ \ [  ]/ /__\\[ `/'`\]|__   __|  | | / /__\\/ /'`\] | .-. |   
++ \ \/ / | \__., | |       | |     | |,| \__.,| \__.  | | | |   
++  \__/_  '.__.'[___]__    '-'     \__/ '.__.''.___.'[___]|__]  
++
++  .' ..]      [  | [  |                                        
++ _| |_  .---.  | |  | |  .--.   _   _   __  .--.               
++'-| |-'/ /__\\ | |  | |/ .'`\ \[ \ [ \ [  ]( (`\]              
++  | |  | \__., | |  | || \__. | \ \/\ \/ /  `'.'.              
++ [___]  '.__.'[___][___]'.__.'   \__/\__/  [\__) )             
++
++```
++# primera etapa
++
++¡Bienvenid@s a la primera prueba del programa VélezReyes+ Tech Fellows 2024! We are so excited that you are here and to embark on this journey together.
++
++As you can see, this journey will also be in _English_ and we hope that this process is also a great resource for you to practice your English and see it in action in technical contexts. If you are not entirely comfortable in English, we encourage you to use translation software, friends, anything! Please keep in mind that here at ver+ we value resourcefulness, a learning mindset, attention to detail, and care for each other above all else! 
++
++### Instructions
++
++There are three parts to this challenge, each in their own folder: each part contains its own questions. Each part has its own README with some light instructions on what is expected of each question. As you will see, most of the questions involve editing the question file in place, and in certain circumstances, a test harness is provided.
++
++**TO START**
++
++_FORK_ the repository to commence the test. If you do not fork the repository, your participation will not be counted. Please DO NOT CLONE the repository, and make sure you fork it.
++
++**TO SUBMIT**
++
++There is a multi-step submit process. **DO NOT OPEN A PULL REQUEST**. THIS MIGHT DISQUALIFY YOU AUTOMATICALLY. Please make sure you follow these instructions as we will not accept any other submission method!
++1. When your solution is ready, create a git diff patch and compress it. You can do so with the following command _from your working branch_: `git diff main > first_quiz_submission.patch && zip first_quiz_submission.zip first_quiz_submission.patch`.
++2. Your submission must be with this filename-- we will not accept any submissions that do not match the file pattern.
++3. Upload your patch, binaries, and other required information in this [form](https://forms.gle/UYnRpDorzThZmdhD7)! You can go back and update your answers as much as you want before the deadline.
++
++DO NOT OPEN A PULL REQUEST-- this will disqualify you. We will NOT accept pull requests or branches-- please make sure you use the diff generation method to generate your patch.
++
++### The deadline is Sunday, November 5th at 3:00pm Colombia.
++We will judge the timeliness of submissions by the timestamp of your form submission. You will be notified of your results on November 8th.
++
++```We wish you the best for this week!```
++
++Remember that our team is here for you, and truly excited that each and everyone of you are here with the ambition and passion to transform both your lives and the lives of others through technology.
++
++```
++    _________   ____ 
++   / ____/   | / __ \
++  / /_  / /| |/ / / /
++ / __/ / ___ / /_/ / 
++/_/   /_/  |_\___\_\ 
++                     
++```
++
++*What if I can't install the requirements on my localhost?*
++
++We highly recommend that you find a way to complete this challenge locally. We have designed this to require minimal packages, and if you have access to a Linux terminal, you should be able to edit and run all the code. If you absolutely cannot do so at this stage, you can also use most online REPLs such as Github Dev or REPL.it which should support the packages needed. Please keep in mind that the second stage requires a proper localhost environment setup for full stack development.
++
++If you don't have a native Linux terminal, and for example, are with a Windows machine, you can also find workarounds that allow you to get the code up and running! We encourage you to use the internet to find the equivalent commands to run the code. Remember, too, that we have provided _convenience_ configuration commands, but they are not entirely necessary to complete the test.
++
++*What if I don't understand certain instructions?*
++
++Part of the test is seeing an existing code base and being able to navigate the documentation and files no matter what. We encourage you to use Google, translators, and to play around with the code until it makes more sense how to proceed. The ver+ team will unfortunately NOT be providing clarifications to the instructions.
++
++*Can I make edits to any file? Including the test files?*
++
++Great question! It is up to you to edit and decide what is necessary to make a complete submission. We value attention to detail so please feel free to make necessary edits when you find them!
++
++*What if I discover a bug with the code?*
++
++If you believe you've discovered a true error that would prevent anyone from completing the test, please message Karen Sun in the Slack channel. You should have received a link to the Slack channel if you are eligible for this stage of the test!
++
++*I found this repository. Can I make a submission?*
++
++While you are free to use this repository to practice your engineering skills, only those who have been identified as eligible for this program and have been invited to our Slack program channel are eligible for the ver+ tech fellowship in 2024.
++
++*What if I don't have a Gmail account?*
++
++You will need a gmail account in order to use our submission form. Please make a free account (which will surely be useful in the future as well!) in order to enter your submission.
++
++
++_If there are questions not addressed here about the class, please put your questions into the `#etapa1-test` channel in Slack_
+diff --git a/part1/README.md b/part1/README.md
+index a74cebe..2a5bd92 100644
+--- a/part1/README.md
++++ b/part1/README.md
+@@ -1,48 +1,48 @@
+-```
+-     _______         __        _______    ___________         ____    
+-    |   __ "\       /""\      /"      \  ("     _   ")       /  " \   
+-    (. |__) :)     /    \    |:        |  )__/  \\__/       /__|| |   
+-    |:  ____/     /' /\  \   |_____/   )     \\_ /             |: |   
+-    (|  /        //  __'  \   //      /      |.  |            _\  |   
+-   /|__/ \      /   /  \\  \ |:  __   \      \:  |           /" \_|\  
+-  (_______)    (___/    \___)|__|  \___)      \__|          (_______) 
+-```
+-
+-Part 1 is a set of 5 Python questions.
+-You will need to have Python3.6 or better installed on your computer.
+-
+-# Getting Started 
+-
+-To get started run the below commands. They will create a new Python3 virtual environment, activate it, and 
+-install the pytest testing library.
+-
+-```
+-python3 -m venv venv
+-source venv/bin/activate 
+-pip install pytest
+-```
+-
+-*If you ever need to close your terminal and come back later:* You can enter the virtual environment from the same
+-directory by typing `source venv/bin/activate`.
+-
+-# How to Work on the Questions
+-
+-Each question is a unique challenge. 
+-- Question 1 is about solving a bug in an existing tiny program.
+-- Question 2 is about writing a simple function.
+-- Question 3 is about implementing a class to create a magical oven.
+-- Question 4 is will test your data and SQL abilities.
+-- Question 5 is about changing the tables you worked with in Question 4.   
+-
+-Each question is in a file named something like, for example, `question3.py`. Every question also has VERY useful
+-test cases in files like, for example, `question3_test.py`.  The specific instructions for how to solve the question 
+-are in the file. 
+-
+-You can test if your solution is correct by running `pytest` against the test file. For example:
+-```
+-pytest question3_test.py
+-```
+-
+-If the test file passes then you have succeeded. This is how you will be graded.
+-It is highly recommended that you read the test file to know the expected output of your questions! 
++```
++     _______         __        _______    ___________         ____    
++    |   __ "\       /""\      /"      \  ("     _   ")       /  " \   
++    (. |__) :)     /    \    |:        |  )__/  \\__/       /__|| |   
++    |:  ____/     /' /\  \   |_____/   )     \\_ /             |: |   
++    (|  /        //  __'  \   //      /      |.  |            _\  |   
++   /|__/ \      /   /  \\  \ |:  __   \      \:  |           /" \_|\  
++  (_______)    (___/    \___)|__|  \___)      \__|          (_______) 
++```
++
++Part 1 is a set of 5 Python questions.
++You will need to have Python3.6 or better installed on your computer.
++
++# Getting Started 
++
++To get started run the below commands. They will create a new Python3 virtual environment, activate it, and 
++install the pytest testing library.
++
++```
++python3 -m venv venv
++source venv/bin/activate 
++pip install pytest
++```
++
++*If you ever need to close your terminal and come back later:* You can enter the virtual environment from the same
++directory by typing `source venv/bin/activate`.
++
++# How to Work on the Questions
++
++Each question is a unique challenge. 
++- Question 1 is about solving a bug in an existing tiny program.
++- Question 2 is about writing a simple function.
++- Question 3 is about implementing a class to create a magical oven.
++- Question 4 is will test your data and SQL abilities.
++- Question 5 is about changing the tables you worked with in Question 4.   
++
++Each question is in a file named something like, for example, `question3.py`. Every question also has VERY useful
++test cases in files like, for example, `question3_test.py`.  The specific instructions for how to solve the question 
++are in the file. 
++
++You can test if your solution is correct by running `pytest` against the test file. For example:
++```
++pytest question3_test.py
++```
++
++If the test file passes then you have succeeded. This is how you will be graded.
++It is highly recommended that you read the test file to know the expected output of your questions! 
+ You can learn more about how pytest works here: https://docs.pytest.org/en/7.4.x/contents.html
+\ No newline at end of file
+diff --git a/part1/pets_db.py b/part1/pets_db.py
+index 03355e1..6dbfc44 100644
+--- a/part1/pets_db.py
++++ b/part1/pets_db.py
+@@ -1,69 +1,69 @@
+-import sqlite3
+-
+-TABLE_SCHEMA = """
+-    CREATE TABLE animals (
+-      animal_id integer,
+-      name text not null,
+-      species text not null,
+-      age integer not null
+-    );
+-    CREATE TABLE people ( 
+-      person_id integer,
+-      name text not null,
+-      age integer not null,
+-      favorite_color text not null
+-    );
+-    CREATE TABLE people_animals (
+-      owner_id integer not null,
+-      pet_id integer not null
+-    );
+-"""
+-
+-ANIMALS = [
+-  (1, "petey", "gray whale", 38),
+-  (2, "leyla", "gray whale", 43),
+-  (3, "thommy", "giant parrot", 21),
+-  (4, "ricky", "lobster", 5),
+-  (5, "martin", "cow", 12),
+-  (6, "shannon", "cow", 14),
+-  (7, "randolph", "lemur", 67),
+-]
+-
+-PEOPLE = [
+-  (1, "scott", 23, "green"),
+-  (2, "bessie", 22, "pink"),
+-  (3, "karen", 27, "orange"),
+-]
+-
+-PEOPLE_ANIMALS = [
+-  (1, 4), # scott, ricky
+-  (2, 4),  # bessie, ricky
+-  (2, 2), # bessie, leyla
+-  (2, 7), # bessie, randolph
+-  (3, 3),  # karen, thommy
+-  (3, 5),  # karen, martin
+-]
+-
+-###
+-# Utility functions for interacting with the database.
+-# No need to look any further!
+-###
+-
+-DB_NAME = "quiz_pets"
+-
+-def get_connection():
+-  return sqlite3.connect(DB_NAME)
+-
+-def drop_db():
+-  with get_connection() as con:
+-    for table in ["animals", "people", "people_animals", "favorite_foods"]:
+-      con.execute(f"drop table if exists {table}")
+-
+-def create_db():
+-  drop_db()
+-
+-  with get_connection() as con:
+-    con.executescript(TABLE_SCHEMA)
+-    con.executemany("INSERT INTO animals VALUES(?, ?, ?, ?)", ANIMALS)
+-    con.executemany("INSERT INTO people VALUES(?, ?, ?, ?)", PEOPLE)
++import sqlite3
++
++TABLE_SCHEMA = """
++    CREATE TABLE animals (
++      animal_id integer,
++      name text not null,
++      species text not null,
++      age integer not null
++    );
++    CREATE TABLE people ( 
++      person_id integer,
++      name text not null,
++      age integer not null,
++      favorite_color text not null
++    );
++    CREATE TABLE people_animals (
++      owner_id integer not null,
++      pet_id integer not null
++    );
++"""
++
++ANIMALS = [
++  (1, "petey", "gray whale", 38),
++  (2, "leyla", "gray whale", 43),
++  (3, "thommy", "giant parrot", 21),
++  (4, "ricky", "lobster", 5),
++  (5, "martin", "cow", 12),
++  (6, "shannon", "cow", 14),
++  (7, "randolph", "lemur", 67),
++]
++
++PEOPLE = [
++  (1, "scott", 23, "green"),
++  (2, "bessie", 22, "pink"),
++  (3, "karen", 27, "orange"),
++]
++
++PEOPLE_ANIMALS = [
++  (1, 4), # scott, ricky
++  (2, 4),  # bessie, ricky
++  (2, 2), # bessie, leyla
++  (2, 7), # bessie, randolph
++  (3, 3),  # karen, thommy
++  (3, 5),  # karen, martin
++]
++
++###
++# Utility functions for interacting with the database.
++# No need to look any further!
++###
++
++DB_NAME = "quiz_pets"
++
++def get_connection():
++  return sqlite3.connect(DB_NAME)
++
++def drop_db():
++  with get_connection() as con:
++    for table in ["animals", "people", "people_animals", "favorite_foods"]:
++      con.execute(f"drop table if exists {table}")
++
++def create_db():
++  drop_db()
++
++  with get_connection() as con:
++    con.executescript(TABLE_SCHEMA)
++    con.executemany("INSERT INTO animals VALUES(?, ?, ?, ?)", ANIMALS)
++    con.executemany("INSERT INTO people VALUES(?, ?, ?, ?)", PEOPLE)
+     con.executemany("INSERT INTO people_animals VALUES(?, ?)", PEOPLE_ANIMALS)
+\ No newline at end of file
+diff --git a/part1/question1.py b/part1/question1.py
+index 5c99fdb..9b847fe 100644
+--- a/part1/question1.py
++++ b/part1/question1.py
+@@ -1,35 +1,39 @@
+-################################################################################
+-#     ____                          __     _                          ___
+-#    / __ \  __  __  ___    _____  / /_   (_)  ____    ____          <  /
+-#   / / / / / / / / / _ \  / ___/ / __/  / /  / __ \  / __ \         / / 
+-#  / /_/ / / /_/ / /  __/ (__  ) / /_   / /  / /_/ / / / / /        / /  
+-#  \___\_\ \__,_/  \___/ /____/  \__/  /_/   \____/ /_/ /_/        /_/   
+-#                                                                        
+-#  Question 1
+-################################################################################
+-#
+-# Instructions:
+-# The two functions below are used to tell the weather. They have some bugs that
+-# need to be fixed. The test suite in `question1_test.py` will verify the output.
+-# Read the test suite to know the values that these functions should return.
+-
+-def get_city_temperature(city):
+-   if city == "Quito":
+-      return 22
+-   if city == "Sao Paulo":
+-      return 17
+-   if city == "San Francisco":
+-      return 16
+-
+-def get_city_weather(city):
+-
+-  sky_condition = None
+-
+-  if city == "Sao Paulo":
+-     sky_condition = "cloudy"
+-  elif city == "New York":
+-     sky_condition = "rainy"
+-
+-  temperature = get_city_temperature(city)
+-
++################################################################################
++#     ____                          __     _                          ___
++#    / __ \  __  __  ___    _____  / /_   (_)  ____    ____          <  /
++#   / / / / / / / / / _ \  / ___/ / __/  / /  / __ \  / __ \         / / 
++#  / /_/ / / /_/ / /  __/ (__  ) / /_   / /  / /_/ / / / / /        / /  
++#  \___\_\ \__,_/  \___/ /____/  \__/  /_/   \____/ /_/ /_/        /_/   
++#                                                                        
++#  Question 1
++################################################################################
++#
++# Instructions:
++# The two functions below are used to tell the weather. They have some bugs that
++# need to be fixed. The test suite in `question1_test.py` will verify the output.
++# Read the test suite to know the values that these functions should return.
++
++def get_city_temperature(city):
++   if city == "Quito":
++      return 22
++   if city == "Sao Paulo":
++      return 17
++   if city == "San Francisco":
++      return 16
++   if city == "New York":
++      return 14
++
++def get_city_weather(city):
++
++  sky_condition = None
++
++  if city == "Sao Paulo":
++     sky_condition = "cloudy"
++  elif city == "New York":
++     sky_condition = "rainy"
++  elif city == "Quito":
++     sky_condition = "sunny"
++
++  temperature = get_city_temperature(city)
++
+   return str(temperature) + " degrees and " + sky_condition
+\ No newline at end of file
+diff --git a/part1/question1_test.py b/part1/question1_test.py
+index 6bddae0..be835ee 100644
+--- a/part1/question1_test.py
++++ b/part1/question1_test.py
+@@ -1,7 +1,7 @@
+-from question1 import get_city_weather
+-
+-def test_get_city_weather():
+-
+-  assert get_city_weather("Quito") == "22 degrees and sunny"
+-
+-  assert get_city_weather("New York") == "14 degrees and rainy"
++from question1 import get_city_weather
++
++def test_get_city_weather():
++
++  assert get_city_weather("Quito") == "22 degrees and sunny"
++
++  assert get_city_weather("New York") == "14 degrees and rainy"
+diff --git a/part1/question2.py b/part1/question2.py
+index 34a9b01..6d13200 100644
+--- a/part1/question2.py
++++ b/part1/question2.py
+@@ -1,21 +1,24 @@
+-################################################################################
+-#     ____                          __     _                          ___ 
+-#    / __ \  __  __  ___    _____  / /_   (_)  ____    ____          |__ \
+-#   / / / / / / / / / _ \  / ___/ / __/  / /  / __ \  / __ \         __/ /
+-#  / /_/ / / /_/ / /  __/ (__  ) / /_   / /  / /_/ / / / / /        / __/ 
+-#  \___\_\ \__,_/  \___/ /____/  \__/  /_/   \____/ /_/ /_/        /____/ 
+-#                                                                         
+-#  Question 2
+-################################################################################
+-#
+-# Instructions:
+-# Write a function that will swap a tuple of two items. For example, the function 
+-# should change (x, y) into (y, x). 
+-# Assign the function to `swapper` so that the function `run_swapper(..)` can use
+-# it. As always, there is a test suite that checks the result. It is in 
+-# `question2_test.py.`
+-
+-swapper = None
+-
+-def run_swapper(list_of_tuples):
+-  return list(map(swapper, list_of_tuples))
+\ No newline at end of file
++################################################################################
++#     ____                          __     _                          ___ 
++#    / __ \  __  __  ___    _____  / /_   (_)  ____    ____          |__ \
++#   / / / / / / / / / _ \  / ___/ / __/  / /  / __ \  / __ \         __/ /
++#  / /_/ / / /_/ / /  __/ (__  ) / /_   / /  / /_/ / / / / /        / __/ 
++#  \___\_\ \__,_/  \___/ /____/  \__/  /_/   \____/ /_/ /_/        /____/ 
++#                                                                         
++#  Question 2
++################################################################################
++#
++# Instructions:
++# Write a function that will swap a tuple of two items. For example, the function 
++# should change (x, y) into (y, x). 
++# Assign the function to `swapper` so that the function `run_swapper(..)` can use
++# it. As always, there is a test suite that checks the result. It is in 
++# `question2_test.py.`
++
++swapper = None
++
++def swapper(tuple):
++    return tuple[1], tuple[0]
++
++def run_swapper(list_of_tuples):
++    return list(map(swapper, list_of_tuples))
+diff --git a/part1/question2_test.py b/part1/question2_test.py
+index 3a506d3..95960fa 100644
+--- a/part1/question2_test.py
++++ b/part1/question2_test.py
+@@ -1,10 +1,10 @@
+-from question2 import run_swapper 
+-
+-def test_run_swapper():
+-  assert run_swapper(
+-    [ ("a", "b"), ("c", "d"), ("e", "f") ]
+-  ) == [ ("b", "a"), ("d", "c"), ("f", "e")]
+-
+-  assert run_swapper(
+-    [ (1, 1), ("foo", "bar"), (13, "cows"), (None, "Some") ]
++from question2 import run_swapper 
++
++def test_run_swapper():
++  assert run_swapper(
++    [ ("a", "b"), ("c", "d"), ("e", "f") ]
++  ) == [ ("b", "a"), ("d", "c"), ("f", "e")]
++
++  assert run_swapper(
++    [ (1, 1), ("foo", "bar"), (13, "cows"), (None, "Some") ]
+   ) == [ (1, 1), ("bar", "foo"), ("cows", 13), ("Some", None) ]
+\ No newline at end of file
+diff --git a/part1/question3.py b/part1/question3.py
+index 04fab99..e41e58b 100644
+--- a/part1/question3.py
++++ b/part1/question3.py
+@@ -1,44 +1,76 @@
+-################################################################################
+-#     ____                          __     _                          _____
+-#    / __ \  __  __  ___    _____  / /_   (_)  ____    ____          |__  /
+-#   / / / / / / / / / _ \  / ___/ / __/  / /  / __ \  / __ \          /_ < 
+-#  / /_/ / / /_/ / /  __/ (__  ) / /_   / /  / /_/ / / / / /        ___/ / 
+-#  \___\_\ \__,_/  \___/ /____/  \__/  /_/   \____/ /_/ /_/        /____/  
+-#                                                                          
+-#  Question 3
+-################################################################################
+-#
+-# Instructions:
+-# Make a Python class for a magical oven that can combine ingredients at 
+-# different temperatures to craft special materials.
+-# 
+-# The oven class should have the methods:
+-# - add(item) to add an oven to be combined
+-# - freeze() to freeze the ingredients
+-# - boil() to boil the ingredients
+-# - wait() to combine the ingredients with no change in temperature
+-# - get_output() to get the result 
+-#
+-# You will need to change the `make_oven()` function to return a new instance
+-# of your oven.
+-#
+-# The `alchemy_combine()` function will use your oven. You can see the expected 
+-# formulas and their outputs in the test file, `question3_test.py`.
+-
+-# This function should return an oven instance!
+-def make_oven():
+-  None
+-
+-def alchemy_combine(oven, ingredients, temperature):
+-  
+-  for item in ingredients:
+-    oven.add(item)
+-
+-  if temperature < 0:
+-    oven.freeze()
+-  elif temperature >= 100:
+-    oven.boil()
+-  else:
+-    oven.wait()
+-
++################################################################################
++#     ____                          __     _                          _____
++#    / __ \  __  __  ___    _____  / /_   (_)  ____    ____          |__  /
++#   / / / / / / / / / _ \  / ___/ / __/  / /  / __ \  / __ \          /_ < 
++#  / /_/ / / /_/ / /  __/ (__  ) / /_   / /  / /_/ / / / / /        ___/ / 
++#  \___\_\ \__,_/  \___/ /____/  \__/  /_/   \____/ /_/ /_/        /____/  
++#                                                                          
++#  Question 3
++################################################################################
++#
++# Instructions:
++# Make a Python class for a magical oven that can combine ingredients at 
++# different temperatures to craft special materials.
++# 
++# The oven class should have the methods:
++# - add(item) to add an oven to be combined
++# - freeze() to freeze the ingredients
++# - boil() to boil the ingredients
++# - wait() to combine the ingredients with no change in temperature
++# - get_output() to get the result 
++#
++# You will need to change the `make_oven()` function to return a new instance
++# of your oven.
++#
++# The `alchemy_combine()` function will use your oven. You can see the expected 
++# formulas and their outputs in the test file, `question3_test.py`.
++
++class MagicalOven:
++    def __init__(self):
++        self.ingredients = []
++        self.output = None
++
++    def add(self, item):
++        self.ingredients.append(item)
++
++    def freeze(self):
++        self.output = "snow"
++        pass
++    
++    def boil(self):
++        self.output = "pizza"
++        pass
++    
++    def boil_extreme(self):
++        self.output = "gold"
++        pass
++
++    def wait(self):
++        self.output = "cold"
++        pass
++
++    def get_output(self):
++        return self.output
++
++
++# This function should return an oven instance!
++def make_oven():
++    return MagicalOven()
++
++
++
++def alchemy_combine(oven, ingredients, temperature):
++  
++  for item in ingredients:
++    oven.add(item)
++
++  if temperature < 0:
++    oven.freeze()
++  elif temperature >= 100 and temperature < 5000:
++    oven.boil()
++  elif temperature >= 5000:
++    oven.boil_extreme()
++  else:
++    oven.wait()
++
+   return oven.get_output()
+\ No newline at end of file
+diff --git a/part1/question3_test.py b/part1/question3_test.py
+index 6cb6c89..2f2d413 100644
+--- a/part1/question3_test.py
++++ b/part1/question3_test.py
+@@ -1,19 +1,21 @@
+-def test_alchemy_combine():
+-
+-  assert alchemy_combine(
+-    make_oven(),
+-    ["lead", "mercury"],
+-    5000
+-  ) == "gold"
+-
+-  assert alchemy_combine(
+-    make_oven(),
+-    ["water", "air"],
+-    -100
+-  ) == "snow"
+-
+-  assert alchemy_combine(
+-    make_oven(),
+-    ["cheese", "dough", "tomato"],
+-    150
++from question3 import alchemy_combine, make_oven 
++
++def test_alchemy_combine():
++
++  assert alchemy_combine(
++    make_oven(),
++    ["lead", "mercury"],
++    5000
++  ) == "gold"
++
++  assert alchemy_combine(
++    make_oven(),
++    ["water", "air"],
++    -100
++  ) == "snow"
++
++  assert alchemy_combine(
++    make_oven(),
++    ["cheese", "dough", "tomato"],
++    150
+   ) == "pizza"
+\ No newline at end of file
+diff --git a/part1/question4.py b/part1/question4.py
+index 1e1b2bf..4f9e0e2 100644
+--- a/part1/question4.py
++++ b/part1/question4.py
+@@ -1,48 +1,50 @@
+-import pets_db
+-
+-################################################################################
+-#     ____                          __     _                          __ __
+-#    / __ \  __  __  ___    _____  / /_   (_)  ____    ____          / // /
+-#   / / / / / / / / / _ \  / ___/ / __/  / /  / __ \  / __ \        / // /_
+-#  / /_/ / / /_/ / /  __/ (__  ) / /_   / /  / /_/ / / / / /       /__  __/
+-#  \___\_\ \__,_/  \___/ /____/  \__/  /_/   \____/ /_/ /_/          /_/   
+-#                                                                          
+-#  Question 4
+-################################################################################
+-#
+-# Instructions:
+-# Question 4 and Question 5 are about writing SQL. THey use the database that is 
+-# created in the file `pets_db.py`. 
+-# These questions use a database called SQLite. You do not need to install anything.
+-# In the file `pets_db.py` three tables are created. Data is then added to each 
+-# of the tables. The questions below are about how the data in each of the tables
+-# is related.
+-
+-# Part 4.A:
+-# Write SQL to select the pets that are owned by nobody.
+-# The output should be a list of tuples in the format: (<pet name>, <species>, <age>)
+-
+-sql_pets_owned_by_nobody = """
+-
+-Your SQL here.
+-
+-"""
+-
+-# Part 4.B:
+-# Write SQL to select how the number of pets are older than their owners. 
+-# The output should be an integer.
+-
+-sql_pets_older_than_owner = """
+-
+-Your SQL here.
+-
+-"""
+-
+-# Part 4.C: BONUS CHALLENGE! 
+-# Write SQL to select the pets that are owned by Bessie and nobody else.
+-# The output should be a list of tuples in the format: (<person name>, <pet name>, <species>)
+-sql_only_owned_by_bessie = """ 
+-
+-Your SQL here.
+-
++import pets_db
++
++################################################################################
++#     ____                          __     _                          __ __
++#    / __ \  __  __  ___    _____  / /_   (_)  ____    ____          / // /
++#   / / / / / / / / / _ \  / ___/ / __/  / /  / __ \  / __ \        / // /_
++#  / /_/ / / /_/ / /  __/ (__  ) / /_   / /  / /_/ / / / / /       /__  __/
++#  \___\_\ \__,_/  \___/ /____/  \__/  /_/   \____/ /_/ /_/          /_/   
++#                                                                          
++#  Question 4
++################################################################################
++#
++# Instructions:
++# Question 4 and Question 5 are about writing SQL. THey use the database that is 
++# created in the file `pets_db.py`. 
++# These questions use a database called SQLite. You do not need to install anything.
++# In the file `pets_db.py` three tables are created. Data is then added to each 
++# of the tables. The questions below are about how the data in each of the tables
++# is related.
++
++# Part 4.A:
++# Write SQL to select the pets that are owned by nobody.
++# The output should be a list of tuples in the format: (<pet name>, <species>, <age>)
++
++sql_pets_owned_by_nobody = """
++    SELECT name, species, age FROM animals
++    WHERE animal_id NOT IN (SELECT pet_id FROM people_animals);
++"""
++
++# Part 4.B:
++# Write SQL to select how the number of pets are older than their owners. 
++# The output should be an integer.
++
++sql_pets_older_than_owner = """
++    SELECT COUNT(*) FROM animals a
++    JOIN people_animals pa ON a.animal_id = pa.pet_id
++    JOIN people p ON pa.owner_id = p.person_id
++    WHERE a.age > p.age;
++"""
++
++# Part 4.C: BONUS CHALLENGE! 
++# Write SQL to select the pets that are owned by Bessie and nobody else.
++# The output should be a list of tuples in the format: (<person name>, <pet name>, <species>)
++sql_only_owned_by_bessie = """ 
++    SELECT persons.name, animals.name, animals.species FROM animals
++    JOIN people_animals ON animals.animal_id = people_animals.pet_id
++    JOIN people AS persons ON people_animals.owner_id = persons.person_id
++    WHERE persons.name = 'Bessie'
++
+ """
+\ No newline at end of file
+diff --git a/part1/question4_test.py b/part1/question4_test.py
+index b01006c..74da6ca 100644
+--- a/part1/question4_test.py
++++ b/part1/question4_test.py
+@@ -1,38 +1,38 @@
+-import pets_db as pets_db
+-from question4 import sql_pets_owned_by_nobody, sql_only_owned_by_bessie, sql_pets_older_than_owner
+-
+-def test_question4_pets_older_than_owner():
+-  pets_db.create_db()
+-
+-  with pets_db.get_connection() as con:
+-    res = con.execute(sql_pets_older_than_owner)
+-    result = res.fetchone()
+-
+-  assert len(result) == 1
+-  assert result[0] == 2
+-
+-def test_question4_pets_owned_by_nobody():
+-  pets_db.create_db()
+-
+-  with pets_db.get_connection() as con:
+-    res = con.execute(sql_pets_owned_by_nobody)
+-    rows = res.fetchall()
+-
+-  rows.sort()
+-
+-  assert len(rows) == 2
+-  assert rows[0] == ('petey', 'gray whale', 38)
+-  assert rows[1] == ('shannon', 'cow', 14)
+-
+-def test_question4_only_owned_by_bessie():
+-  pets_db.create_db()
+-
+-  with pets_db.get_connection() as con:
+-    res = con.execute(sql_only_owned_by_bessie)
+-    rows = res.fetchall()
+-
+-  rows.sort()
+-
+-  assert len(rows) == 2
+-  assert rows[0] == ('bessie', 'leyla', 'gray whale')
++import pets_db as pets_db
++from question4 import sql_pets_owned_by_nobody, sql_only_owned_by_bessie, sql_pets_older_than_owner
++
++def test_question4_pets_older_than_owner():
++  pets_db.create_db()
++
++  with pets_db.get_connection() as con:
++    res = con.execute(sql_pets_older_than_owner)
++    result = res.fetchone()
++
++  assert len(result) == 1
++  assert result[0] == 2
++
++def test_question4_pets_owned_by_nobody():
++  pets_db.create_db()
++
++  with pets_db.get_connection() as con:
++    res = con.execute(sql_pets_owned_by_nobody)
++    rows = res.fetchall()
++
++  rows.sort()
++
++  assert len(rows) == 2
++  assert rows[0] == ('petey', 'gray whale', 38)
++  assert rows[1] == ('shannon', 'cow', 14)
++
++def test_question4_only_owned_by_bessie():
++  pets_db.create_db()
++
++  with pets_db.get_connection() as con:
++    res = con.execute(sql_only_owned_by_bessie)
++    rows = res.fetchall()
++
++  rows.sort()
++
++  assert len(rows) == 2
++  assert rows[0] == ('bessie', 'leyla', 'gray whale')
+   assert rows[1] == ('bessie', 'randolph', 'lemur')
+\ No newline at end of file
+diff --git a/part1/question5.py b/part1/question5.py
+index f76654f..e39103c 100644
+--- a/part1/question5.py
++++ b/part1/question5.py
+@@ -1,45 +1,51 @@
+-################################################################################
+-#     ____                          __     _                           ______
+-#    / __ \  __  __  ___    _____  / /_   (_)  ____    ____           / ____/
+-#   / / / / / / / / / _ \  / ___/ / __/  / /  / __ \  / __ \         /___ \  
+-#  / /_/ / / /_/ / /  __/ (__  ) / /_   / /  / /_/ / / / / /        ____/ /  
+-#  \___\_\ \__,_/  \___/ /____/  \__/  /_/   \____/ /_/ /_/        /_____/   
+-#                                                                            
+-#  Question 5
+-################################################################################
+-#
+-# Instructions:
+-# This questions continues to use the database we worked with in Question 4. In 
+-# this question, we will made some modifications ot the table.
+-
+-# Part 5.A:
+-# Create a new table, 'favorite_foods.' It should have the columns:
+-# food_id integer
+-# name text
+-# vegetarian integer
+-
+-sql_create_favorite_foods = """
+-
+-Your SQL here.
+-
+-"""
+-
+-# Part 5.B:
+-# Alter the animals and people tables by adding a new column to each called 'favorite_food_id'
+-# The test suite will verify the new changes by inserting some new rows. 
+-
+-sql_alter_tables_with_favorite_food = """
+-
+-Your SQL here.
+-
+-"""
+-
+-# Part 5.C:
+-# Write a query to select all pets that are vegetarian.
+-# THe output should be a list of tuples in the format: (<pet name>, <food name>)
+-
+-sql_select_all_vegetarian_pets = """
+-
+-Your SQL here.
+-
+-"""
+\ No newline at end of file
++################################################################################
++#     ____                          __     _                           ______
++#    / __ \  __  __  ___    _____  / /_   (_)  ____    ____           / ____/
++#   / / / / / / / / / _ \  / ___/ / __/  / /  / __ \  / __ \         /___ \  
++#  / /_/ / / /_/ / /  __/ (__  ) / /_   / /  / /_/ / / / / /        ____/ /  
++#  \___\_\ \__,_/  \___/ /____/  \__/  /_/   \____/ /_/ /_/        /_____/   
++#                                                                            
++#  Question 5
++################################################################################
++#
++# Instructions:
++# This questions continues to use the database we worked with in Question 4. In 
++# this question, we will made some modifications ot the table.
++
++# Part 5.A:
++# Create a new table, 'favorite_foods.' It should have the columns:
++# food_id integer
++# name text
++# vegetarian integer
++
++sql_create_favorite_foods = """
++    CREATE TABLE favorite_foods (
++       food_id integer,
++       name text,
++       vegetarian integer
++   );
++
++"""
++
++# Part 5.B:
++# Alter the animals and people tables by adding a new column to each called 'favorite_food_id'
++# The test suite will verify the new changes by inserting some new rows. 
++
++sql_alter_tables_with_favorite_food = """
++    ALTER TABLE animals
++    ADD favorite_food_id integer;
++
++    ALTER TABLE people
++    ADD favorite_food_id integer;
++"""
++
++# Part 5.C:
++# Write a query to select all pets that are vegetarian.
++# THe output should be a list of tuples in the format: (<pet name>, <food name>)
++
++sql_select_all_vegetarian_pets = """
++    SELECT a.name AS pet_name, f.name AS food_name
++    FROM animals AS a
++    JOIN favorite_foods AS f ON a.favorite_food_id = f.food_id
++    WHERE f.food_id NOT IN (2, 5);
++"""
+diff --git a/part1/question5_test.py b/part1/question5_test.py
+index b5d932e..6eef892 100644
+--- a/part1/question5_test.py
++++ b/part1/question5_test.py
+@@ -1,74 +1,74 @@
+-import pets_db as pets_db
+-from question5 import sql_create_favorite_foods, sql_alter_tables_with_favorite_food, sql_select_all_vegetarian_pets
+-
+-FOODS = [
+-  (1, "spinach", 1),
+-  (2, "termites", 0),
+-  (3, "turnips", 1),
+-  (4, "cough drops", 1),
+-  (5, "shrimp", 0),
+-]
+-
+-PEOPLE_FOOD = [
+-  (4, "scott"), # cough drops
+-  (5, "bessie"), # shrimp
+-  (3, "karen"), # turnips
+-]
+-
+-ANIMALS_FOOD = [
+-  (5, "petey"), # shrimp
+-  (1, "leyla"), # spinach
+-  (2, "thommy"), # termites
+-  (4, "ricky"), # cough drops
+-  (1, "martin"), # spinach
+-  (3, "shannon"), # turnips
+-  (2, "randolph"), # termites
+-]
+-
+-def insert_foods(con):
+-  con.executemany("INSERT INTO favorite_foods VALUES(?, ?, ?)", FOODS)
+-
+-def create_favorite_foods(con):
+-  con.execute(sql_create_favorite_foods)
+-
+-def alter_people_animals_food(con):
+-  con.executescript(sql_alter_tables_with_favorite_food);
+-
+-def update_people_animals_food(con):
+-  con.executemany("UPDATE people SET favorite_food_id = ? WHERE name = ?", PEOPLE_FOOD)
+-  con.executemany("UPDATE animals SET favorite_food_id = ? WHERE name = ?", ANIMALS_FOOD)
+-
+-def test_create_favorite_foods():
+-  pets_db.create_db()
+-
+-  with pets_db.get_connection() as con:
+-    create_favorite_foods(con)
+-    insert_foods(con)
+-    
+-def test_alter_tables_with_favorite_food():
+-  pets_db.create_db()
+-
+-  with pets_db.get_connection() as con:
+-    create_favorite_foods(con)
+-    insert_foods(con)
+-    alter_people_animals_food(con)
+-    update_people_animals_food(con)
+-
+-def test_select_all_vegetarian_pets():
+-  pets_db.create_db()
+-
+-  with pets_db.get_connection() as con:
+-    create_favorite_foods(con)
+-    insert_foods(con)
+-    alter_people_animals_food(con)
+-    update_people_animals_food(con)
+-
+-    res = con.execute(sql_select_all_vegetarian_pets)
+-    rows = res.fetchall()
+-
+-  rows.sort()
+-
+-  assert rows[0] == ('leyla', 'spinach')
+-  assert rows[1] == ('martin', 'spinach')
+-  assert rows[2] == ('ricky', 'cough drops')
+-  assert rows[3] == ('shannon', 'turnips')
++import pets_db as pets_db
++from question5 import sql_create_favorite_foods, sql_alter_tables_with_favorite_food, sql_select_all_vegetarian_pets
++
++FOODS = [
++  (1, "spinach", 1),
++  (2, "termites", 0),
++  (3, "turnips", 1),
++  (4, "cough drops", 1),
++  (5, "shrimp", 0),
++]
++
++PEOPLE_FOOD = [
++  (4, "scott"), # cough drops
++  (5, "bessie"), # shrimp
++  (3, "karen"), # turnips
++]
++
++ANIMALS_FOOD = [
++  (5, "petey"), # shrimp
++  (1, "leyla"), # spinach
++  (2, "thommy"), # termites
++  (4, "ricky"), # cough drops
++  (1, "martin"), # spinach
++  (3, "shannon"), # turnips
++  (2, "randolph"), # termites
++]
++
++def insert_foods(con):
++  con.executemany("INSERT INTO favorite_foods VALUES(?, ?, ?)", FOODS)
++
++def create_favorite_foods(con):
++  con.execute(sql_create_favorite_foods)
++
++def alter_people_animals_food(con):
++  con.executescript(sql_alter_tables_with_favorite_food);
++
++def update_people_animals_food(con):
++  con.executemany("UPDATE people SET favorite_food_id = ? WHERE name = ?", PEOPLE_FOOD)
++  con.executemany("UPDATE animals SET favorite_food_id = ? WHERE name = ?", ANIMALS_FOOD)
++
++def test_create_favorite_foods():
++  pets_db.create_db()
++
++  with pets_db.get_connection() as con:
++    create_favorite_foods(con)
++    insert_foods(con)
++    
++def test_alter_tables_with_favorite_food():
++  pets_db.create_db()
++
++  with pets_db.get_connection() as con:
++    create_favorite_foods(con)
++    insert_foods(con)
++    alter_people_animals_food(con)
++    update_people_animals_food(con)
++
++def test_select_all_vegetarian_pets():
++  pets_db.create_db()
++
++  with pets_db.get_connection() as con:
++    create_favorite_foods(con)
++    insert_foods(con)
++    alter_people_animals_food(con)
++    update_people_animals_food(con)
++
++    res = con.execute(sql_select_all_vegetarian_pets)
++    rows = res.fetchall()
++
++  rows.sort()
++
++  assert rows[0] == ('leyla', 'spinach')
++  assert rows[1] == ('martin', 'spinach')
++  assert rows[2] == ('ricky', 'cough drops')
++  assert rows[3] == ('shannon', 'turnips')
+diff --git a/part2/README.md b/part2/README.md
+index 5e343df..c3febc2 100644
+--- a/part2/README.md
++++ b/part2/README.md
+@@ -1,27 +1,27 @@
+-```
+-__________                __    ________  
+-\______   \_____ ________/  |_  \_____  \ 
+- |     ___/\__  \\_  __ \   __\  /  ____/ 
+- |    |     / __ \|  | \/|  |   /       \ 
+- |____|    (____  /__|   |__|   \_______ \
+-                \/                      \/
+-```
+-
+-Part 2 is a single question that must be implemented in Java. 
+-
+-The problem provides an interface for a VendingMachine. Your job is to create a class that implements
+-the interface and behaves the way that the test suite in `Question6Test.java` expects.
+-
+-# Getting Started
+-
+-You will need to have Maven installed. It is the compile and test system for this problem. 
+-
+-If you are on MacOS and have homebrew installed, you can install Maven with `brew install maven`. Otherwise, it 
+-is available from the website: https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+-
+-To run the test suite, from this directory, you can do:
+-```
+-mvn test
+-```
+-
++```
++__________                __    ________  
++\______   \_____ ________/  |_  \_____  \ 
++ |     ___/\__  \\_  __ \   __\  /  ____/ 
++ |    |     / __ \|  | \/|  |   /       \ 
++ |____|    (____  /__|   |__|   \_______ \
++                \/                      \/
++```
++
++Part 2 is a single question that must be implemented in Java. 
++
++The problem provides an interface for a VendingMachine. Your job is to create a class that implements
++the interface and behaves the way that the test suite in `Question6Test.java` expects.
++
++# Getting Started
++
++You will need to have Maven installed. It is the compile and test system for this problem. 
++
++If you are on MacOS and have homebrew installed, you can install Maven with `brew install maven`. Otherwise, it 
++is available from the website: https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
++
++To run the test suite, from this directory, you can do:
++```
++mvn test
++```
++
+ The main code for the question is under `src/main/` and the test suite is under `src/test`.
+\ No newline at end of file
+diff --git a/part2/pom.xml b/part2/pom.xml
+index 3117aed..a591663 100644
+--- a/part2/pom.xml
++++ b/part2/pom.xml
+@@ -1,75 +1,75 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-
+-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+-  <modelVersion>4.0.0</modelVersion>
+-
+-  <groupId>org.velezreyes.quiz</groupId>
+-  <artifactId>vz-first-quiz</artifactId>
+-  <version>1.0-SNAPSHOT</version>
+-
+-  <name>vz-first-quiz</name>
+-  <!-- FIXME change it to the project's website -->
+-  <url>http://www.example.com</url>
+-
+-  <properties>
+-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+-    <maven.compiler.source>1.8</maven.compiler.source>
+-    <maven.compiler.target>1.8</maven.compiler.target>
+-  </properties>
+-
+-  <dependencies>
+-    <dependency>
+-      <groupId>org.junit.jupiter</groupId>
+-      <artifactId>junit-jupiter</artifactId>
+-      <version>5.10.0</version>
+-      <scope>test</scope>
+-    </dependency>
+-  </dependencies>
+-
+-  <build>
+-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+-      <plugins>
+-        <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
+-        <plugin>
+-          <artifactId>maven-clean-plugin</artifactId>
+-          <version>3.1.0</version>
+-        </plugin>
+-        <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+-        <plugin>
+-          <artifactId>maven-resources-plugin</artifactId>
+-          <version>3.0.2</version>
+-        </plugin>
+-        <plugin>
+-          <artifactId>maven-compiler-plugin</artifactId>
+-          <version>3.8.0</version>
+-        </plugin>
+-        <plugin>
+-          <artifactId>maven-surefire-plugin</artifactId>
+-          <version>2.22.1</version>
+-        </plugin>
+-        <plugin>
+-          <artifactId>maven-jar-plugin</artifactId>
+-          <version>3.0.2</version>
+-        </plugin>
+-        <plugin>
+-          <artifactId>maven-install-plugin</artifactId>
+-          <version>2.5.2</version>
+-        </plugin>
+-        <plugin>
+-          <artifactId>maven-deploy-plugin</artifactId>
+-          <version>2.8.2</version>
+-        </plugin>
+-        <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
+-        <plugin>
+-          <artifactId>maven-site-plugin</artifactId>
+-          <version>3.7.1</version>
+-        </plugin>
+-        <plugin>
+-          <artifactId>maven-project-info-reports-plugin</artifactId>
+-          <version>3.0.0</version>
+-        </plugin>
+-      </plugins>
+-    </pluginManagement>
+-  </build>
+-</project>
++<?xml version="1.0" encoding="UTF-8"?>
++
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++  <modelVersion>4.0.0</modelVersion>
++
++  <groupId>org.velezreyes.quiz</groupId>
++  <artifactId>vz-first-quiz</artifactId>
++  <version>1.0-SNAPSHOT</version>
++
++  <name>vz-first-quiz</name>
++  <!-- FIXME change it to the project's website -->
++  <url>http://www.example.com</url>
++
++  <properties>
++    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
++    <maven.compiler.source>1.8</maven.compiler.source>
++    <maven.compiler.target>1.8</maven.compiler.target>
++  </properties>
++
++  <dependencies>
++    <dependency>
++      <groupId>org.junit.jupiter</groupId>
++      <artifactId>junit-jupiter</artifactId>
++      <version>5.10.0</version>
++      <scope>test</scope>
++    </dependency>
++  </dependencies>
++
++  <build>
++    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
++      <plugins>
++        <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
++        <plugin>
++          <artifactId>maven-clean-plugin</artifactId>
++          <version>3.1.0</version>
++        </plugin>
++        <!-- default lifecycle, jar packaging: see https://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
++        <plugin>
++          <artifactId>maven-resources-plugin</artifactId>
++          <version>3.0.2</version>
++        </plugin>
++        <plugin>
++          <artifactId>maven-compiler-plugin</artifactId>
++          <version>3.8.0</version>
++        </plugin>
++        <plugin>
++          <artifactId>maven-surefire-plugin</artifactId>
++          <version>2.22.1</version>
++        </plugin>
++        <plugin>
++          <artifactId>maven-jar-plugin</artifactId>
++          <version>3.0.2</version>
++        </plugin>
++        <plugin>
++          <artifactId>maven-install-plugin</artifactId>
++          <version>2.5.2</version>
++        </plugin>
++        <plugin>
++          <artifactId>maven-deploy-plugin</artifactId>
++          <version>2.8.2</version>
++        </plugin>
++        <!-- site lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#site_Lifecycle -->
++        <plugin>
++          <artifactId>maven-site-plugin</artifactId>
++          <version>3.7.1</version>
++        </plugin>
++        <plugin>
++          <artifactId>maven-project-info-reports-plugin</artifactId>
++          <version>3.0.0</version>
++        </plugin>
++      </plugins>
++    </pluginManagement>
++  </build>
++</project>
+diff --git a/part2/src/main/java/org/velezreyes/quiz/question6/Drink.java b/part2/src/main/java/org/velezreyes/quiz/question6/Drink.java
+index 61c1fdd..52bfe17 100644
+--- a/part2/src/main/java/org/velezreyes/quiz/question6/Drink.java
++++ b/part2/src/main/java/org/velezreyes/quiz/question6/Drink.java
+@@ -1,7 +1,7 @@
+-package org.velezreyes.quiz.question6;
+-
+-public interface Drink {
+-  public String getName();
+-
+-  public boolean isFizzy();
++package org.velezreyes.quiz.question6;
++
++public interface Drink {
++  public String getName();
++
++  public boolean isFizzy();
+ }
+\ No newline at end of file
+diff --git a/part2/src/main/java/org/velezreyes/quiz/question6/NotEnoughMoneyException.java b/part2/src/main/java/org/velezreyes/quiz/question6/NotEnoughMoneyException.java
+index 8f3bf9d..b29d4c1 100644
+--- a/part2/src/main/java/org/velezreyes/quiz/question6/NotEnoughMoneyException.java
++++ b/part2/src/main/java/org/velezreyes/quiz/question6/NotEnoughMoneyException.java
+@@ -1,9 +1,9 @@
+-package org.velezreyes.quiz.question6;
+-
+-public class NotEnoughMoneyException extends Exception {
+-
+-  public NotEnoughMoneyException() {
+-    super("Not enough money inserted.");
+-  }
+-  
+-}
++package org.velezreyes.quiz.question6;
++
++public class NotEnoughMoneyException extends Exception {
++
++  public NotEnoughMoneyException() {
++    super("Not enough money inserted.");
++  }
++  
++}
+diff --git a/part2/src/main/java/org/velezreyes/quiz/question6/UnknownDrinkException.java b/part2/src/main/java/org/velezreyes/quiz/question6/UnknownDrinkException.java
+index 3c26b1e..84b9b2c 100644
+--- a/part2/src/main/java/org/velezreyes/quiz/question6/UnknownDrinkException.java
++++ b/part2/src/main/java/org/velezreyes/quiz/question6/UnknownDrinkException.java
+@@ -1,8 +1,8 @@
+-package org.velezreyes.quiz.question6;
+-
+-public class UnknownDrinkException extends Exception {
+-
+-  public UnknownDrinkException() {
+-    super("Unknown drink!");
+-  }
+-}
++package org.velezreyes.quiz.question6;
++
++public class UnknownDrinkException extends Exception {
++
++  public UnknownDrinkException() {
++    super("Unknown drink!");
++  }
++}
+diff --git a/part2/src/main/java/org/velezreyes/quiz/question6/VendingMachine.java b/part2/src/main/java/org/velezreyes/quiz/question6/VendingMachine.java
+index 3f92825..d574960 100644
+--- a/part2/src/main/java/org/velezreyes/quiz/question6/VendingMachine.java
++++ b/part2/src/main/java/org/velezreyes/quiz/question6/VendingMachine.java
+@@ -1,8 +1,8 @@
+-package org.velezreyes.quiz.question6;
+-
+-public interface VendingMachine {
+-
+-  public void insertQuarter();
+-
+-  public Drink pressButton(String name) throws NotEnoughMoneyException, UnknownDrinkException;
++package org.velezreyes.quiz.question6;
++
++public interface VendingMachine {
++
++  public void insertQuarter();
++
++  public Drink pressButton(String name) throws NotEnoughMoneyException, UnknownDrinkException;
+ }
+\ No newline at end of file
+diff --git a/part2/src/main/java/org/velezreyes/quiz/question6/VendingMachineImpl.java b/part2/src/main/java/org/velezreyes/quiz/question6/VendingMachineImpl.java
+index 85742c4..519e629 100644
+--- a/part2/src/main/java/org/velezreyes/quiz/question6/VendingMachineImpl.java
++++ b/part2/src/main/java/org/velezreyes/quiz/question6/VendingMachineImpl.java
+@@ -1,9 +1,9 @@
+-package org.velezreyes.quiz.question6;
+-
+-public class VendingMachineImpl {
+-
+-  public static VendingMachine getInstance() {
+-    // Fix me!
+-    return null;
+-  }
+-}
++package org.velezreyes.quiz.question6;
++
++public class VendingMachineImpl {
++
++  public static VendingMachine getInstance() {
++    // Fix me!
++    return null;
++  }
++}
+diff --git a/part2/src/test/java/org/velezreyes/quiz/Question6Test.java b/part2/src/test/java/org/velezreyes/quiz/Question6Test.java
+index 855e73f..f95d8ef 100644
+--- a/part2/src/test/java/org/velezreyes/quiz/Question6Test.java
++++ b/part2/src/test/java/org/velezreyes/quiz/Question6Test.java
+@@ -1,95 +1,95 @@
+-package org.velezreyes.quiz;
+-
+-import static org.junit.jupiter.api.Assertions.assertEquals;
+-import static org.junit.jupiter.api.Assertions.assertFalse;
+-import static org.junit.jupiter.api.Assertions.assertNotNull;
+-import static org.junit.jupiter.api.Assertions.assertThrows;
+-import static org.junit.jupiter.api.Assertions.assertTrue;
+-
+-import org.junit.jupiter.api.Test;
+-import org.velezreyes.quiz.question6.Drink;
+-import org.velezreyes.quiz.question6.NotEnoughMoneyException;
+-import org.velezreyes.quiz.question6.UnknownDrinkException;
+-import org.velezreyes.quiz.question6.VendingMachine;
+-import org.velezreyes.quiz.question6.VendingMachineImpl;
+-
+-public class Question6Test {
+-
+-  @Test
+-  public void canCreateVendingMachineInstance() {
+-    VendingMachine vm = VendingMachineImpl.getInstance();
+-    assertNotNull(vm);
+-  }
+-
+-  @Test
+-  public void drinkNotFree() {
+-    VendingMachine vm = VendingMachineImpl.getInstance();
+-
+-    Exception exception = assertThrows(NotEnoughMoneyException.class, () -> {
+-      vm.pressButton("ScottCola");
+-    });
+-  }
+-
+-  @Test
+-  public void canGetScottColaFor75Cents() throws Exception {
+-    VendingMachine vm = VendingMachineImpl.getInstance();
+-
+-    vm.insertQuarter();
+-    vm.insertQuarter();
+-    vm.insertQuarter();
+-
+-    Drink drink = vm.pressButton("ScottCola");
+-    
+-    assertTrue(drink.isFizzy());
+-    assertEquals(drink.getName(), "ScottCola");
+-  }
+-
+-  public void machineResets() throws Exception {
+-    VendingMachine vm = VendingMachineImpl.getInstance();
+-
+-    vm.insertQuarter();
+-    vm.insertQuarter();
+-    vm.insertQuarter();
+-
+-    Drink drink = vm.pressButton("ScottCola");
+-    assertNotNull(drink);
+-
+-    Exception exception = assertThrows(NotEnoughMoneyException.class, () -> {
+-      vm.pressButton("ScottCola");
+-    });
+-  }
+-
+-  @Test
+-  public void canGetKarenTeaForOneDollar() throws Exception {
+-    VendingMachine vm = VendingMachineImpl.getInstance();
+-
+-    vm.insertQuarter();
+-    vm.insertQuarter();
+-    vm.insertQuarter();
+-
+-    // Test that KarenTea costs at least 75 cents.
+-    assertThrows(NotEnoughMoneyException.class, () -> {
+-      vm.pressButton("KarenTea");
+-    });
+-
+-    vm.insertQuarter();
+-
+-    Drink drink = vm.pressButton("KarenTea");
+-    assertFalse(drink.isFizzy());
+-    assertEquals(drink.getName(), "KarenTea");
+-  }
+-
+-  @Test
+-  public void otherDrinksUnknown() throws Exception {
+-    VendingMachine vm = VendingMachineImpl.getInstance();
+-
+-    vm.insertQuarter();
+-    vm.insertQuarter();
+-    vm.insertQuarter();
+-    vm.insertQuarter();
+-
+-    assertThrows(UnknownDrinkException.class, () -> {
+-      vm.pressButton("BessieBooze");
+-    });
+-  }
+-}
++package org.velezreyes.quiz;
++
++import static org.junit.jupiter.api.Assertions.assertEquals;
++import static org.junit.jupiter.api.Assertions.assertFalse;
++import static org.junit.jupiter.api.Assertions.assertNotNull;
++import static org.junit.jupiter.api.Assertions.assertThrows;
++import static org.junit.jupiter.api.Assertions.assertTrue;
++
++import org.junit.jupiter.api.Test;
++import org.velezreyes.quiz.question6.Drink;
++import org.velezreyes.quiz.question6.NotEnoughMoneyException;
++import org.velezreyes.quiz.question6.UnknownDrinkException;
++import org.velezreyes.quiz.question6.VendingMachine;
++import org.velezreyes.quiz.question6.VendingMachineImpl;
++
++public class Question6Test {
++
++  @Test
++  public void canCreateVendingMachineInstance() {
++    VendingMachine vm = VendingMachineImpl.getInstance();
++    assertNotNull(vm);
++  }
++
++  @Test
++  public void drinkNotFree() {
++    VendingMachine vm = VendingMachineImpl.getInstance();
++
++    Exception exception = assertThrows(NotEnoughMoneyException.class, () -> {
++      vm.pressButton("ScottCola");
++    });
++  }
++
++  @Test
++  public void canGetScottColaFor75Cents() throws Exception {
++    VendingMachine vm = VendingMachineImpl.getInstance();
++
++    vm.insertQuarter();
++    vm.insertQuarter();
++    vm.insertQuarter();
++
++    Drink drink = vm.pressButton("ScottCola");
++    
++    assertTrue(drink.isFizzy());
++    assertEquals(drink.getName(), "ScottCola");
++  }
++
++  public void machineResets() throws Exception {
++    VendingMachine vm = VendingMachineImpl.getInstance();
++
++    vm.insertQuarter();
++    vm.insertQuarter();
++    vm.insertQuarter();
++
++    Drink drink = vm.pressButton("ScottCola");
++    assertNotNull(drink);
++
++    Exception exception = assertThrows(NotEnoughMoneyException.class, () -> {
++      vm.pressButton("ScottCola");
++    });
++  }
++
++  @Test
++  public void canGetKarenTeaForOneDollar() throws Exception {
++    VendingMachine vm = VendingMachineImpl.getInstance();
++
++    vm.insertQuarter();
++    vm.insertQuarter();
++    vm.insertQuarter();
++
++    // Test that KarenTea costs at least 75 cents.
++    assertThrows(NotEnoughMoneyException.class, () -> {
++      vm.pressButton("KarenTea");
++    });
++
++    vm.insertQuarter();
++
++    Drink drink = vm.pressButton("KarenTea");
++    assertFalse(drink.isFizzy());
++    assertEquals(drink.getName(), "KarenTea");
++  }
++
++  @Test
++  public void otherDrinksUnknown() throws Exception {
++    VendingMachine vm = VendingMachineImpl.getInstance();
++
++    vm.insertQuarter();
++    vm.insertQuarter();
++    vm.insertQuarter();
++    vm.insertQuarter();
++
++    assertThrows(UnknownDrinkException.class, () -> {
++      vm.pressButton("BessieBooze");
++    });
++  }
++}
+diff --git a/part3/README.md b/part3/README.md
+index fd78ff7..0c96ec3 100644
+--- a/part3/README.md
++++ b/part3/README.md
+@@ -1,61 +1,61 @@
+-```
+-
+- ______   ________   ______   _________   ______      
+-/_____/\ /_______/\ /_____/\ /________/\ /_____/\     
+-\:::_ \ \\::: _  \ \\:::_ \ \\__.::.__\/ \:::_:\ \    
+- \:(_) \ \\::(_)  \ \\:(_) ) )_ \::\ \      /_\:\ \   
+-  \: ___\/ \:: __  \ \\: __ `\ \ \::\ \     \::_:\ \  
+-   \ \ \    \:.\ \  \ \\ \ `\ \ \ \::\ \    /___\:\ ' 
+-    \_\/     \__\/\__\/ \_\/ \_\/  \__\/    \______/  
+-                                                      
+-```
+-
+-### In this part! We would love to hear a little from you... literally =)
+-
+-## English
+-Please record a 30-60 second audio IN ENGLISH about your favorite technology learning resources. You can be as creative as you want! How do you learn? How do you like to learn? Where do you find what to learn? Please ensure the following:
+-- The audio must be in English. We will not process any submissions in Spanish. However! Please know we are not looking for perfect English, simply that you are taking the effort to study English well enough to be able to articulate something like this.
+-- Please, no more than 60 seconds. We would like to be able to give your audio our full attention!
+-
+-_Your audio should NOT be saved in this repository. Please keep it separate so you can upload it in the submission form. It can be in any audio format such as wav, mp3, ogg, etc._
+-
+-## Cloud Computing
+-In this section, we would like to learn a little about your experience with cloud computing platforms such as AWS, GCP, or Azure.
+-
+-Hopefully, you are familiar with the pervasive social media app, Instagram! Instagram uses cloud computing services to ensure that you have a performant experience as an end user, and that it can serve billions of users around the world at scale. Instagram has a Stories feature in the top horizontal bar which displays video clips from users that you follow, valid for 24 hours, in reverse chronological order. Instagram manages to do this very fast and at scale! But how?
+-
+-We would like you to think about the life cycle from when a user uploads a new story photo or video, to the point when it appears in the stories feed for another user. Which cloud computing services are likely being used along the way that allow it to optimize for speed and scale?
+-
+-Please create an application flowchart architecture diagram that depicts this lifecycle from story upload to read, and which services are used for which entities and why.
+-
+-Here are some tips!
+-- YOUR SUBMISSION CAN BE IN SPANISH
+-- [Here](https://cloudockit.medium.com/5-tips-for-drawing-organizing-your-aws-architecture-diagrams-1bf1e9d84fd1) are [some](https://davelms.medium.com/taking-a-first-look-at-google-cloud-architecture-diagramming-tool-35a1867356c9) [examples](https://creately.com/guides/aws-architecture-diagrams-and-use-cases/) of architecture diagrams
+-- We recommend you depict at least 6 difference services, and annotate the flow and services with a phrase about how they're being used specific to the lifecycle of an Instagram story
+-- We are NOT looking for a perfect solution, especially because there is no best architecture. We are looking for your understanding of how to use common cloud computing services to solve the main performance engineering problems.
+-- You can do this using any platform: draw the solution on a piece of paper and upload a picture of it, Google Drawings, a free Miro board, or any other virtual whiteboard method.
+-
+-
+-_The final submission must be a photo file and should NOT be saved in this repository. Please make sure to keep it separate and then upload it in the submission form._
+-
+-## System Security
+-
+-In this section, we will want you to demonstrate your knowledge of security best practices. Write your answer to this
+-question in `security_question.md` either in English or Spanish.
+-
+-Suppose you are the head of Engineering for an exciting new tech startup that installs solar panels via an app. 
+-It's Uber for Solar Panels! You are doing a security audit of your app's infrastructure. You are using the OWASP Top 10
+-for 2021 as a guide for what security issues might be a problem for you. 
+-
+-Your infrastructure is deployed in Kubernetes containers on Amazon Web Services. It has these components:
+-- A mobile app for Android and iOS.
+-- A web frontend that the customer can use instead of the mobile app. This is written in Javascript with Next.js.
+-- A MySQL database that stores customer information, including passwords, home addresses, telephone numbers, etc. It \
+-  also contains customer order information.
+-- A Python backend implemented in FastAPI. This talks to the database and serves data to both the web frontend and the \
+-  mobile apps. 
+-
+-You have 12 software engineer employees who have full access to the system, 3 customer support employees who can view
+-customer information and make changes to orders and accounts, and one sales employee. 
+-
++```
++
++ ______   ________   ______   _________   ______      
++/_____/\ /_______/\ /_____/\ /________/\ /_____/\     
++\:::_ \ \\::: _  \ \\:::_ \ \\__.::.__\/ \:::_:\ \    
++ \:(_) \ \\::(_)  \ \\:(_) ) )_ \::\ \      /_\:\ \   
++  \: ___\/ \:: __  \ \\: __ `\ \ \::\ \     \::_:\ \  
++   \ \ \    \:.\ \  \ \\ \ `\ \ \ \::\ \    /___\:\ ' 
++    \_\/     \__\/\__\/ \_\/ \_\/  \__\/    \______/  
++                                                      
++```
++
++### In this part! We would love to hear a little from you... literally =)
++
++## English
++Please record a 30-60 second audio IN ENGLISH about your favorite technology learning resources. You can be as creative as you want! How do you learn? How do you like to learn? Where do you find what to learn? Please ensure the following:
++- The audio must be in English. We will not process any submissions in Spanish. However! Please know we are not looking for perfect English, simply that you are taking the effort to study English well enough to be able to articulate something like this.
++- Please, no more than 60 seconds. We would like to be able to give your audio our full attention!
++
++_Your audio should NOT be saved in this repository. Please keep it separate so you can upload it in the submission form. It can be in any audio format such as wav, mp3, ogg, etc._
++
++## Cloud Computing
++In this section, we would like to learn a little about your experience with cloud computing platforms such as AWS, GCP, or Azure.
++
++Hopefully, you are familiar with the pervasive social media app, Instagram! Instagram uses cloud computing services to ensure that you have a performant experience as an end user, and that it can serve billions of users around the world at scale. Instagram has a Stories feature in the top horizontal bar which displays video clips from users that you follow, valid for 24 hours, in reverse chronological order. Instagram manages to do this very fast and at scale! But how?
++
++We would like you to think about the life cycle from when a user uploads a new story photo or video, to the point when it appears in the stories feed for another user. Which cloud computing services are likely being used along the way that allow it to optimize for speed and scale?
++
++Please create an application flowchart architecture diagram that depicts this lifecycle from story upload to read, and which services are used for which entities and why.
++
++Here are some tips!
++- YOUR SUBMISSION CAN BE IN SPANISH
++- [Here](https://cloudockit.medium.com/5-tips-for-drawing-organizing-your-aws-architecture-diagrams-1bf1e9d84fd1) are [some](https://davelms.medium.com/taking-a-first-look-at-google-cloud-architecture-diagramming-tool-35a1867356c9) [examples](https://creately.com/guides/aws-architecture-diagrams-and-use-cases/) of architecture diagrams
++- We recommend you depict at least 6 difference services, and annotate the flow and services with a phrase about how they're being used specific to the lifecycle of an Instagram story
++- We are NOT looking for a perfect solution, especially because there is no best architecture. We are looking for your understanding of how to use common cloud computing services to solve the main performance engineering problems.
++- You can do this using any platform: draw the solution on a piece of paper and upload a picture of it, Google Drawings, a free Miro board, or any other virtual whiteboard method.
++
++
++_The final submission must be a photo file and should NOT be saved in this repository. Please make sure to keep it separate and then upload it in the submission form._
++
++## System Security
++
++In this section, we will want you to demonstrate your knowledge of security best practices. Write your answer to this
++question in `security_question.md` either in English or Spanish.
++
++Suppose you are the head of Engineering for an exciting new tech startup that installs solar panels via an app. 
++It's Uber for Solar Panels! You are doing a security audit of your app's infrastructure. You are using the OWASP Top 10
++for 2021 as a guide for what security issues might be a problem for you. 
++
++Your infrastructure is deployed in Kubernetes containers on Amazon Web Services. It has these components:
++- A mobile app for Android and iOS.
++- A web frontend that the customer can use instead of the mobile app. This is written in Javascript with Next.js.
++- A MySQL database that stores customer information, including passwords, home addresses, telephone numbers, etc. It \
++  also contains customer order information.
++- A Python backend implemented in FastAPI. This talks to the database and serves data to both the web frontend and the \
++  mobile apps. 
++
++You have 12 software engineer employees who have full access to the system, 3 customer support employees who can view
++customer information and make changes to orders and accounts, and one sales employee. 
++
+ Using the OWASP Top 10, what would you look for to make your system secure?
+\ No newline at end of file
